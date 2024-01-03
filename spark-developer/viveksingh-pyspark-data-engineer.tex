@@ -18,12 +18,13 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\documentclass[9pt,a4paper,ragged2e,withhyper]{altacv}
+
 %% AltaCV uses the fontawesome5 and packages.
 %% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
 
 % Change the page layout if you need to
-\geometry{left=0.80cm,right=0.80cm,top=0.80cm,bottom=0.80cm,columnsep=1.2cm}
+\geometry{left=0.80cm,right=0.80cm,top=0.80cm,bottom=0.80cm,columnsep=0.8cm}
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
@@ -198,7 +199,8 @@ I’m a quick learner, a good team player with positive attitude and a passionat
 \begin{itemize}
   \item Involved in requirement analysis and sprint planning.
   \item Development testing and QA support for new Rest service APIs.
-  \item \resizebox{\columnwidth}{!}{Tech.: \cvtag{Java} \cvtag{JDBC} \cvtag{SpringIntegration} \cvtag{Servket-Filter} \cvtag{WebServices} \cvtag{RTC} \cvtag{Java} \cvtag{JDBC} \cvtag{SpringIntegration} \cvtag{Servket-Filter}}
+%  \item \resizebox{\columnwidth}{!}{Tech.: \cvtag{Java} \cvtag{JDBC} \cvtag{SpringIntegration} \cvtag{Servket-Filter} \cvtag{WebServices} \cvtag{RTC} \cvtag{Java} \cvtag{JDBC} \cvtag{SpringIntegration} \cvtag{Servket-Filter}}
+\item Tech.: \cvtag{Java} \cvtag{JDBC} \cvtag{SpringIntegration} \cvtag{Servket/Filter} \cvtag{WebServices} \cvtag{RTC}
 \end{itemize}
 
 \medskip
@@ -221,10 +223,16 @@ I’m a quick learner, a good team player with positive attitude and a passionat
 %% page if the content is too long.
 \switchcolumn
 
+\cvsection{Soft Skills}
+\cvtag{Scrum Agile} \cvtag{Kanban} \cvtag{Scrum Master} \cvtag{Product Owner}
+
+\divider
+
 % Skills
 \cvsection{Skills}
 \cvskill{Python}{3.5}
 \cvskill{PySpark}{4}
+\cvskill{SQL}{4}
 \cvskill{AWS}{3}
 \cvskill{Java}{4}
 \cvskill{SpringBoot}{4}
@@ -233,13 +241,18 @@ I’m a quick learner, a good team player with positive attitude and a passionat
 \divider
 
 \cvtag{Maven} \cvtag{Git} \cvtag{Kafka} \cvtag{Spark SQL} \cvtag{Spark Streaming}  
-\cvtag{Linux} \cvtag{MySQL} \cvtag{SQL} \cvtag{HDFS} \cvtag{UDFs} \cvtag{Hive} \cvtag{Sqoop}
-\cvtag{RDBMS} 
+\cvtag{Linux} \cvtag{MySQL} \cvtag{HDFS} \cvtag{UDFs} \cvtag{Hive} \cvtag{Sqoop}
+\cvtag{RDBMS} \cvtag{Design Patterns} \cvtag{Hibernate} \cvtag{JDBC} \cvtag{Servlet/JSP} 
+\cvtag{Jenkins} \cvtag{Perforce} \cvtag{RTC} \cvtag{Maven/ANT} \cvtag{Spring Integration}
+\cvtag{Tomcat} \cvtag{WebLogic} \cvtag{WebSpeher} \cvtag{Oracle} \cvtag{MySQL}
+\cvtag{WebServices} \cvtag{REST} \cvtag{SOAP} \cvtag{MongoDB} \cvtag{Intellij IDEA} \cvtag{PyCharm}
+
 
 % Strengths
 \cvsection{Strengths}
 
-\cvtag{Quick-Learner} \cvtag{Hard-working} \cvtag{Motivator \& Leader}
+\cvtag{Quick-Learner} \cvtag{Hard-working} \\
+\cvtag{Motivator \& Leader}
 
 %\divider\smallskip
 
@@ -257,16 +270,15 @@ I’m a quick learner, a good team player with positive attitude and a passionat
 
 \cvsection{Education}
 
-\cvevent{MCA\ in Computer Applications}{CBIT College}{July 2010 -- June 2013}{}
-Thesis title: Wonderful Research
+\cvevent{MCA\ in Computer Applications}{CBIT College, Osmania University HYD}{July 2010 -- June 2013}{}
+%Thesis title: Wonderful Research
 
 \divider
 
 \cvevent{BCA\ in Computer Applications}{Sikkim Manipal University}{July2007 -- June 2010}{}
-% \divider
+%\divider
 
 
 \end{paracol}
-
 
 \end{document}
