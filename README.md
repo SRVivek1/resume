@@ -1,48 +1,36 @@
 # Resume/CV 
-## Intro
->I'm a passionate Software Engineer having 10+ years of experience in Python, Spark, java & spring techs. Expertise in
-Telecom, Insurance & Banking domains in different key roles - developer, Scrum Master and
-Product Owner, Requirement gathering, scoping & end-to-end delivery and team management.
+## Introdution
+>Experienced Software Engineer with 11.2 years of experience in designing & developing scal-
+able applications using Java, Spring Boot, and Microservices. Skilled in AWS (S3, EC2, ECS)
+and experienced in Telecom, Insurance, and Banking domains. Proven expertise in develop-
+ment, Scrum Master, Product Owner roles, and end-to-end project delivery.
 
-> I’m a quick learner, a good team player with positive attitude.
+> A quick learner, collaborative team player, and passionate about technology-driven solutions.
+
 
 ## Skills 
-### Data engineering
-> * Python
-> * PySpark, Spark-SQL, Spark-Streaming
-> * HDFS
 
-### AWS Services
-> * EC2 
-> * S3 
-> * EMR 
-> * Glue 
-> * RDS 
-> * RedShift 
+| Tech stack          | Skills                                                              |
+| ------------------- | ------------------------------------------------------------------- |
+| Language            | JDK 1.8, J2EE, Servlet, JSP, JDBC                                   |
+| Frameworks          | Spring-Boot, Micro-services, Hibernate, Web-Services, Ruby-On-Rails |
+| Best practices      | Design Patterns, TDD, CI/CD, Agile, Scrum, Kanban                   |
+| Application Servers | WebLogic, Tomcat, Websphere                                         |
+| AWS Services        | EC2, S3, EMR, Glue, RDS, RedShift                                   |
+| Database            | SQL Queries, MySQL, Oracle, MongoDB                                 |
+| Data engineering    | Python, PySpark, Spark-SQL, Spark-Streaming, HDFS                   |
+| Dev-Ops             | Docker, Kubernetes, Jenkins                                           |
+| Other               | Maven, Ant, Git, Perforce, RTC, IntelliJ-Idea, Eclipse, PyCharm     |
+| OS                  | Linux, Unix, Windows                                                |
 
-### Database
-> * SQL Queries
-> * MySQL
-> * Oracle
-> * MongoDB  
 
-### Ent. Application
-> * Java, J2EE, Servlet, JSP, JDBC, 
-> * Spring-Boot, Micro-services, Hibernate, 
-> * Web-Services, Design-patterns, 
-> * WebLogic, Tomcat, websphere
-> * Ruby-On-Rails
-
-### Dev-Ops
-> Docker, Jenkins
-
-### Other
-> * Maven, Ant
-> * Git, Perforce, RTC
-> * IntelliJ-Idea, Eclipse, PyCharm
-
-### OS
-> Linux, Unix
+## Experience
  
+### ThoughtWorks, Bangalore [Feb. 2025 - Present]
+### State Street Corporation, Bangalore [Sep. 2021 - Feb. 2025]
+### Deloitte, Bangalore [Apr. 2019 - Sep. 2021]
+### Amdocs, Pune [Jan. 2016 - Feb. 2019]
+### Capgemini, Pune [Dec. 2013 - Dec. 2015]
+
 
 
